@@ -65,7 +65,6 @@ public class Gamemanager : MonoBehaviour
         string json = JsonUtility.ToJson(data);
 
         File.WriteAllText(Application.persistentDataPath + "/savefile.json",json);
-        Debug.LogWarning("SaveGameError!!!");
     
     }
 
